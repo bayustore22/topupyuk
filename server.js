@@ -4,12 +4,12 @@ const chalk = require('chalk');
 const qrcode = require('qrcode');
 const path = require('path');
 const app = express();
-const DEFAULT_NMID = "ID123456789012";
-const MERCHANT_NAME = "PAYMU-WANZOFC";
+const DEFAULT_NMID = "ID2024321896902";
+const MERCHANT_NAME = "BAYU STORE";
 const MERCHANT_CITY = "DKI JAKARTA";
 const MERCHANT_COUNTRY_CODE = "ID";
 const MERCHANT_CATEGORY_CODE = "5499";
-const GLOBALLY_UNIQUE_IDENTIFIER = "id.co.qris.demo";
+const GLOBALLY_UNIQUE_IDENTIFIER = "https://files.catbox.moe/di7mzo.jpg";
 // mashkin url qris lu contoh gopay atau dana 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
